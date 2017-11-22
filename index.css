@@ -15,7 +15,39 @@
 }
 
 .bg-red {
-  background-color: #D32F2F;
+  background-color: #C62828;
+}
+
+.bg-brown {
+  background-color: #795548;
+}
+
+.bg-indigo {
+  background-color: #3F51B5;
+}
+
+.bg-cyan {
+  background-color: #00838F;
+}
+
+.bg-teal {
+  background-color: #009688;
+}
+
+.bg-green {
+  background-color: #4CAF50;
+}
+
+.bg-lime {
+  background-color: #9E9D24;
+}
+
+.bg-grey {
+  background-color: #9E9E9E;
+}
+
+.bg-orange {
+  background-color: #FF9800;
 }
 
 .bg-light-red {
