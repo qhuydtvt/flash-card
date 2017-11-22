@@ -1,0 +1,115 @@
+.bg-blue {
+  background-color: #3F51B5;
+}
+
+.bg-light-blue {
+  background-color: #C5CAE9;
+}
+
+.bg-purple {
+  background-color: #4527A0;
+}
+
+.bg-light-purple {
+  background-color: #D1C4E9;
+}
+
+.bg-red {
+  background-color: #D32F2F;
+}
+
+.bg-light-red {
+  background-color: #FFCDD2;
+}
+
+.red {
+  color: #FFCDD2;
+}
+
+body {
+  margin: 0px;
+}
+
+.cover {
+  background-color: rgba(158, 133, 133, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  display: flex;
+  align-self: center;
+  flex-flow: column;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12), 0px 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+  flex-grow: 1;
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+.card-header {
+  padding-top: 14px;
+  padding-left: 14px;
+  font-size: 1.4em;
+}
+
+.card-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer-button {
+  padding: 12px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: auto;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.card-example {
+  font-size: 0.9em;
+  margin-bottom: 12px;
+}
+
+.color-selection-container {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.h-list li {
+  display: inline;
+}
+
+.color-item {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 100%;
+  border: #bac7dd 2px solid;
+  cursor: pointer;
+}
